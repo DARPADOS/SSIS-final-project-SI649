@@ -1,8 +1,25 @@
-Create Database BD_VENTAS_COMPRAS_STAGE
-
+USE master
 GO
 
-Use BD_VENTAS_COMPRAS_STAGE
+DECLARE @DatabaseName nvarchar(50)
+SET @DatabaseName = N'DB_VENTAS_COMPRAS_STAGE'
+
+DECLARE @SQL varchar(max)
+
+SELECT @SQL = COALESCE(@SQL,'') + 'Kill ' + Convert(varchar, SPId) + ';'
+FROM MASTER..SysProcesses
+WHERE DBId = DB_ID(@DatabaseName) AND SPId <> @@SPId
+
+--SELECT @SQL 
+EXEC(@SQL)
+GO
+
+IF EXISTS(select * from sys.databases where name='DB_VENTAS_COMPRAS_STAGE')
+DROP DATABASE DB_VENTAS_COMPRAS_STAGE;
+
+Create Database DB_VENTAS_COMPRAS_STAGE
+
+Use DB_VENTAS_COMPRAS_STAGE
 
 set dateformat YMD
 
@@ -51,6 +68,7 @@ CREATE TABLE stg_compras (
 CREATE TABLE stg_proveedor (
 	sk_proveedor int identity(5000,1) primary key,
 	razon_social nvarchar(50),
+	cod_proveedor int,
 	ruc nvarchar(50),
 	tipo_proveedor nvarchar(50)
 )
@@ -72,6 +90,7 @@ create table stg_fechas (
 
 create table stg_categoria (
 	sk_categoria int identity (5000,1) primary key,
+	cod_categoria int,
 	id int not null,
 	categoria nvarchar(50) not null,
 );
@@ -87,6 +106,7 @@ create table stg_producto (
 
 create table stg_servicio (
 	sk_servicio int identity (5000,1) primary key,
+	cod_servicio int,
 	id int not null,
 	nombre nvarchar(50) not null,
 	categoria_servicio nvarchar(50) not null,
@@ -95,6 +115,7 @@ create table stg_servicio (
 
 create table stg_complejidad (
 	sk_complejidad int identity (5000,1) primary key,
+	cod_complejidad int,
 	id int not null,
 	nombre nvarchar(50) not null,
 	factor decimal (3,2) not null
