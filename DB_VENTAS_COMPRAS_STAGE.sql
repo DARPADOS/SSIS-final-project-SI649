@@ -17,8 +17,8 @@ GO
 IF EXISTS(select * from sys.databases where name='DB_VENTAS_COMPRAS_STAGE')
 DROP DATABASE DB_VENTAS_COMPRAS_STAGE;
 
-Create Database DB_VENTAS_COMPRAS_STAGE
-
+Create Database DB_VENTAS_COMPRAS_STAGE;
+GO
 Use DB_VENTAS_COMPRAS_STAGE
 
 set dateformat YMD
@@ -91,8 +91,7 @@ create table stg_fechas (
 create table stg_categoria (
 	sk_categoria int identity (5000,1) primary key,
 	cod_categoria int,
-	id int not null,
-	categoria nvarchar(50) not null,
+	categoria nvarchar(50) not null
 );
 
 create table stg_producto (
@@ -107,7 +106,6 @@ create table stg_producto (
 create table stg_servicio (
 	sk_servicio int identity (5000,1) primary key,
 	cod_servicio int,
-	id int not null,
 	nombre nvarchar(50) not null,
 	categoria_servicio nvarchar(50) not null,
 	precio_base decimal(10,2) not null
@@ -116,14 +114,12 @@ create table stg_servicio (
 create table stg_complejidad (
 	sk_complejidad int identity (5000,1) primary key,
 	cod_complejidad int,
-	id int not null,
 	nombre nvarchar(50) not null,
 	factor decimal (3,2) not null
 );
 
 create table stg_junk_metodo_estado(
 	sk_metodo_estado int identity (5000,1) primary key,
-	id int not null,
 	metodo_pago nvarchar(50) not null,
 	estado_pago nvarchar(50) not null
 );
@@ -131,9 +127,9 @@ create table stg_junk_metodo_estado(
 create table stg_persona(
 	sk_persona int identity (5000,1) primary key,
 	cod_persona int not null,
-	nombre_completo varchar(50) not null,
-	identificacion varchar(50) not null,
-	tipo_persona varchar(50) not null
+	nombre_completo nvarchar(101) not null,
+	identificacion nvarchar(50) not null
+	--tipo_persona varchar(50) not null
 )
 GO
 

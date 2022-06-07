@@ -1,4 +1,3 @@
-
 USE master
 GO
 
@@ -18,8 +17,8 @@ GO
 IF EXISTS(select * from sys.databases where name='DB_VENTAS_COMPRAS_MART')
 DROP DATABASE DB_VENTAS_COMPRAS_MART;
 
-Create Database DB_VENTAS_COMPRAS_MART
-
+Create Database DB_VENTAS_COMPRAS_MART;
+GO
 Use DB_VENTAS_COMPRAS_MART
 
 set dateformat YMD

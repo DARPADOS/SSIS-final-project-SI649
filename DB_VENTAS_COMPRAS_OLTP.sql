@@ -1,5 +1,4 @@
-﻿
-USE master
+﻿USE master
 GO
 
 DECLARE @DatabaseName nvarchar(50)
