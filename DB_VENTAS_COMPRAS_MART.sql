@@ -37,7 +37,7 @@ CREATE TABLE fact_ventas_servicios (
 	monto_venta decimal (10,2),
 	duracion_pago int,
 
-	primary key (sk_cliente, sk_empleado, sk_servicio, sk_fecha_venta, sk_complejidad, sk_fecha_pago, sk_metodo_estado)
+	primary key (sk_cliente, sk_empleado, sk_servicio, sk_fecha_venta, sk_complejidad, sk_fecha_pago, sk_metodo_estado, cod_venta)
 )
 
 CREATE TABLE fact_ventas_productos (
@@ -54,7 +54,7 @@ CREATE TABLE fact_ventas_productos (
 	margen_ganancia decimal (10,2),
 	duracion_pago int
 
-	primary key (sk_cliente, sk_empleado, sk_producto, sk_fecha_venta, sk_fecha_pago, sk_metodo_estado)
+	primary key (sk_cliente, sk_empleado, sk_producto, sk_fecha_venta, sk_fecha_pago, sk_metodo_estado, cod_venta)
 )
 
 CREATE TABLE fact_compras (
@@ -68,11 +68,11 @@ CREATE TABLE fact_compras (
 	cantindad_pedido int,
 	monto_compra decimal (10,2),
 
-	primary key (sk_proveedor, sk_empleado, sk_producto, sk_fecha_compra, sk_fecha_pago, sk_metodo_estado)
+	primary key (sk_proveedor, sk_empleado, sk_producto, sk_fecha_compra, sk_fecha_pago, sk_metodo_estado, cod_compra)
 )
 
 CREATE TABLE dim_proveedor (
-	sk_proveedor int identity(5000,1) primary key,
+	sk_proveedor int,
 	razon_social nvarchar(50),
 	ruc nvarchar(50),
 	tipo_proveedor nvarchar(50)
@@ -94,13 +94,12 @@ create table dim_fechas (
 )
 
 create table dim_categoria (
-	sk_categoria int identity (5000,1) primary key,
-	id int not null,
+	sk_categoria int,
 	categoria nvarchar(50) not null,
 );
 
 create table dim_producto (
-	sk_producto int identity (5000,1) primary key,
+	sk_producto int,
 	cod_producto int not null,
 	sk_categoria int not null,
 	producto nvarchar(50) not null,
@@ -109,32 +108,28 @@ create table dim_producto (
 );
 
 create table dim_servicio (
-	sk_servicio int identity (5000,1) primary key,
-	id int not null,
+	sk_servicio int,	
 	nombre nvarchar(50) not null,
 	categoria_servicio nvarchar(50) not null,
 	precio_base decimal(10,2) not null
 );
 
 create table dim_complejidad (
-	sk_complejidad int identity (5000,1) primary key,
-	id int not null,
+	sk_complejidad int,
 	nombre nvarchar(50) not null,
 	factor decimal (3,2) not null
 );
 
 create table junk_metodo_estado(
-	sk_metodo_estado int identity (5000,1) primary key,
-	id int not null,
+	sk_metodo_estado int,
 	metodo_pago nvarchar(50) not null,
 	estado_pago nvarchar(50) not null
 );
 
 create table dim_persona(
-	sk_persona int identity (5000,1) primary key,
+	sk_persona int,
 	cod_persona int not null,
-	nombre_completo varchar(50) not null,
-	identificacion varchar(50) not null,
-	tipo_persona varchar(50) not null
+	nombre_completo nvarchar(101) not null,
+	identificacion nvarchar(50) not null,
 )
 GO
