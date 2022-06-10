@@ -72,7 +72,7 @@ CREATE TABLE fact_compras (
 )
 
 CREATE TABLE dim_proveedor (
-	sk_proveedor int,
+	sk_proveedor int primary key,
 	razon_social nvarchar(50),
 	ruc nvarchar(50),
 	tipo_proveedor nvarchar(50)
@@ -94,12 +94,12 @@ create table dim_fechas (
 )
 
 create table dim_categoria (
-	sk_categoria int,
+	sk_categoria int primary key,
 	categoria nvarchar(50) not null,
 );
 
 create table dim_producto (
-	sk_producto int,
+	sk_producto int primary key,
 	cod_producto int not null,
 	sk_categoria int not null,
 	producto nvarchar(50) not null,
@@ -108,26 +108,26 @@ create table dim_producto (
 );
 
 create table dim_servicio (
-	sk_servicio int,	
+	sk_servicio int primary key,	
 	nombre nvarchar(50) not null,
 	categoria_servicio nvarchar(50) not null,
 	precio_base decimal(10,2) not null
 );
 
 create table dim_complejidad (
-	sk_complejidad int,
+	sk_complejidad int primary key,
 	nombre nvarchar(50) not null,
 	factor decimal (3,2) not null
 );
 
 create table junk_metodo_estado(
-	sk_metodo_estado int,
+	sk_metodo_estado int primary key,
 	metodo_pago nvarchar(50) not null,
 	estado_pago nvarchar(50) not null
 );
 
 create table dim_persona(
-	sk_persona int,
+	sk_persona int primary key,
 	cod_persona int not null,
 	nombre_completo nvarchar(101) not null,
 	identificacion nvarchar(50) not null,
