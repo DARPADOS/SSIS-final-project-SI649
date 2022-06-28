@@ -136,17 +136,19 @@ create table dim_persona(
 
 CREATE TABLE fact_margen_ventas_productos (
 	sk_fecha int not null,
+	sk_producto int not null,
 	anio smallint not null,
 	num_mes_anio smallint not null,
 	margen decimal (10,2) not null,
-	primary key(sk_fecha, anio, num_mes_anio)
+	primary key(sk_fecha, sk_producto, anio, num_mes_anio)
 )
 
 CREATE TABLE fact_monto_ventas_servicios (
 	sk_fecha int not null,
+	sk_servicio int not null,
 	anio smallint not null,
 	num_mes_anio smallint not null,
 	monto decimal (10,2),
-	primary key (sk_fecha, anio, num_mes_anio)
+	primary key (sk_fecha, sk_servicio, anio, num_mes_anio)
 )
 GO
