@@ -90,7 +90,8 @@ create table dim_fechas (
 	num_trimestre_anio smallint,
 	num_mes_anio smallint,
 	num_dia_semana smallint,
-	num_dia_mes smallint
+	num_dia_mes smallint,
+	num_semana_anio smallint
 )
 
 create table dim_categoria (
@@ -131,5 +132,21 @@ create table dim_persona(
 	cod_persona int not null,
 	nombre_completo nvarchar(101) not null,
 	identificacion nvarchar(50) not null,
+);
+
+CREATE TABLE fact_margen_ventas_productos (
+	sk_fecha int not null,
+	anio smallint not null,
+	num_mes_anio smallint not null,
+	margen decimal (10,2) not null,
+	primary key(sk_fecha, anio, num_mes_anio)
+)
+
+CREATE TABLE fact_monto_ventas_servicios (
+	sk_fecha int not null,
+	anio smallint not null,
+	num_mes_anio smallint not null,
+	monto decimal (10,2),
+	primary key (sk_fecha, anio, num_mes_anio)
 )
 GO

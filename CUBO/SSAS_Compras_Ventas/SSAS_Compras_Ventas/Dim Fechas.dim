@@ -1,14 +1,14 @@
-﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="9326c7fe-8663-427e-8a9e-394c712b7278" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="bc416739-bbee-4aed-92a6-0e8b512a68ad" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>Dim Fechas</ID>
   <Name>Dim Fechas</Name>
-  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
-  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <CreatedTimestamp>0001-01-01T05:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T05:00:00Z</LastSchemaUpdate>
   <Annotations>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
       <Value>
         <dds xmlns="">
-          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="2" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-2827" scrolltop="-5321" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="9483" y="15642" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="3" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-2827" scrolltop="-331" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="9483" y="15642" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
             <font>
               <ddsxmlobjectstreamwrapper binary="010000009001b0300100065461686f6d61" />
             </font>
@@ -19,7 +19,7 @@
           <layoutmanager>
             <ddsxmlobj />
           </layoutmanager>
-          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="dim_fechas" left="-403" top="-21" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="3789" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="dim_fechas" left="-339" top="466" logicalid="2" controlid="1" masterid="0" hint1="0" hint2="0" width="3789" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
             <control>
               <ddsxmlobjectstreaminitwrapper binary="000e0000cd0e000088130000" />
             </control>
@@ -51,118 +51,192 @@
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
-      <Value>-5321</Value>
+      <Value>-331</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
-      <Value>-403</Value>
+      <Value>-339</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
-      <Value>-21</Value>
+      <Value>466</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
       <Value>100</Value>
     </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ARDiagramLayout</Name>
+      <Value>
+        <DiagramLayout ZoomPercent="100" ViewPortX="0" ViewPortY="0" xmlns="">
+          <Shapes NodeWidth="176">
+            <Shape Id="Sk Fecha" Expanded="false">
+              <Attributes>
+                <Attribute Id="Sk Fecha" />
+                <Attribute Id="Fecha" />
+                <Attribute Id="Mes 1" />
+                <Attribute Id="Num Dia Mes" />
+                <Attribute Id="Num Dia Semana" />
+                <Attribute Id="Num Mes Anio" />
+                <Attribute Id="Num Semestre Anio" />
+                <Attribute Id="Num Trimestre Anio" />
+              </Attributes>
+              <Position x="20" y="20" />
+            </Shape>
+            <Shape Id="Dia Semana" Expanded="false">
+              <Attributes>
+                <Attribute Id="Dia Semana" />
+              </Attributes>
+              <Position x="245" y="20" />
+            </Shape>
+            <Shape Id="Mes" Expanded="false">
+              <Attributes>
+                <Attribute Id="Mes" />
+              </Attributes>
+              <Position x="245" y="69" />
+            </Shape>
+            <Shape Id="Trimestre" Expanded="false">
+              <Attributes>
+                <Attribute Id="Trimestre" />
+              </Attributes>
+              <Position x="245" y="118" />
+            </Shape>
+            <Shape Id="Semestre" Expanded="false">
+              <Attributes>
+                <Attribute Id="Semestre" />
+              </Attributes>
+              <Position x="245" y="167" />
+            </Shape>
+            <Shape Id="Anio" Expanded="false">
+              <Attributes>
+                <Attribute Id="Anio" />
+              </Attributes>
+              <Position x="245" y="216" />
+            </Shape>
+          </Shapes>
+        </DiagramLayout>
+      </Value>
+    </Annotation>
   </Annotations>
-  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <LastProcessed>0001-01-01T05:00:00Z</LastProcessed>
   <State>Unprocessed</State>
-  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="d6ca64db-9e01-4603-8691-c4bc02e26f6a">
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="dd615351-0395-4f73-842d-18d95f1424e1">
     <DataSourceViewID>DV_Compras_Ventas</DataSourceViewID>
   </Source>
-  <ErrorConfiguration dwd:design-time-name="812939a6-00af-43d7-80b8-f6dd485a93d7">
+  <Type>Time</Type>
+  <ErrorConfiguration dwd:design-time-name="c5dbd402-2930-4d99-82c0-84b00b828e64">
     <KeyNotFound>ReportAndStop</KeyNotFound>
     <KeyDuplicate>ReportAndStop</KeyDuplicate>
     <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
   </ErrorConfiguration>
   <CurrentStorageMode>Molap</CurrentStorageMode>
   <Attributes>
-    <Attribute dwd:design-time-name="883b6b6c-b4a9-49e6-9205-eb5a4113ed29">
+    <Attribute dwd:design-time-name="55763cd3-dae1-4a1c-a4b7-efee50bee840">
       <ID>Sk Fecha</ID>
       <Name>Sk Fecha</Name>
       <Usage>Key</Usage>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="0ad3d56f-714d-4413-bdde-b5d5f3691bef">
+        <KeyColumn dwd:design-time-name="5eff3f24-8649-48d7-8619-b20d7758c207">
           <DataType>Integer</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="918ffd06-b7ca-4643-921f-2736083edda8">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="7992e1ac-a157-44aa-933b-62999dfa5c96">
             <TableID>dbo_dim_fechas</TableID>
             <ColumnID>sk_fecha</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
       <AttributeRelationships>
-        <AttributeRelationship dwd:design-time-name="e46a8ee4-300e-44b2-948d-14a348894082">
+        <AttributeRelationship dwd:design-time-name="83c03f09-7c7d-4058-b51f-47a9ec83c55b">
           <AttributeID>Fecha</AttributeID>
           <Name>Fecha</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="02dcbf53-eae6-43b8-94da-2fdaeed4b7d5">
+        <AttributeRelationship dwd:design-time-name="49d9b5f0-48c4-4b38-a6af-f09e121549bc">
           <AttributeID>Anio</AttributeID>
           <Name>Anio</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="73f04cf3-9519-4326-9a75-55642dcf3fe3">
+        <AttributeRelationship dwd:design-time-name="9b983fcb-df1b-42fa-bb9d-a9bd58a604a8">
           <AttributeID>Semestre</AttributeID>
           <Name>Semestre</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="fd38ca8d-2c7a-4bfb-a7cd-cff0afa67d34">
+        <AttributeRelationship dwd:design-time-name="2666dd74-8f77-4dc9-9997-c8ec7c0c2f34">
           <AttributeID>Trimestre</AttributeID>
           <Name>Trimestre</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="23c7a600-165f-4d20-9a6c-05017decb023">
+        <AttributeRelationship dwd:design-time-name="ebf754f0-bf54-42f9-8005-575f2bfdae98">
           <AttributeID>Mes</AttributeID>
           <Name>Mes</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="c280c741-7dfa-4dc8-8ef0-3d5fa347d46e">
+        <AttributeRelationship dwd:design-time-name="247d59ce-c765-4ada-a0a3-08511c01034e">
           <AttributeID>Dia Semana</AttributeID>
           <Name>Dia Semana</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="4b4c30e8-b106-47fb-9843-bbc4eab52ee6">
+        <AttributeRelationship dwd:design-time-name="9eef398b-6061-4ed4-86b3-470246323b89">
           <AttributeID>Num Semestre Anio</AttributeID>
           <Name>Num Semestre Anio</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="63f76123-3002-4831-8db4-329dd7b2c888">
+        <AttributeRelationship dwd:design-time-name="91acf99e-f799-4493-8b82-dc5b60451949">
           <AttributeID>Num Trimestre Anio</AttributeID>
           <Name>Num Trimestre Anio</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="0d028349-6e98-45c9-86cb-d49cdc1879ae">
+        <AttributeRelationship dwd:design-time-name="1806945f-9470-40bc-9d46-954799bd7a70">
           <AttributeID>Num Mes Anio</AttributeID>
           <Name>Num Mes Anio</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="f0b05817-1a96-4919-9727-f5e7063e2dad">
+        <AttributeRelationship dwd:design-time-name="a887e3b6-b5c7-4346-b8c4-5c85d92c9cb1">
           <AttributeID>Num Dia Semana</AttributeID>
           <Name>Num Dia Semana</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="5d27a5d5-7b35-4867-bcb1-e22d899ca3fe">
+        <AttributeRelationship dwd:design-time-name="ba289846-8114-4a45-8cbc-1244d23cbd26">
           <AttributeID>Num Dia Mes</AttributeID>
           <Name>Num Dia Mes</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="f9a95ed2-1152-4b9e-badb-22f8d2b9d8c1">
+          <AttributeID>Mes 1</AttributeID>
+          <Name>MesyAnio</Name>
         </AttributeRelationship>
       </AttributeRelationships>
       <OrderBy>Key</OrderBy>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="49ae19f2-67fa-42c4-bd80-ea05841afe63">
+    <Attribute dwd:design-time-name="04d52194-ccd9-463c-b87d-94fe5b0cea36">
       <ID>Fecha</ID>
       <Name>Fecha</Name>
+      <Type>Date</Type>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="0d534a37-94c3-44c8-97dd-cbf7e6154b20">
+        <KeyColumn dwd:design-time-name="f72687bf-1fac-4439-ae17-989139da0782">
           <DataType>Date</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="70b59369-84cf-4033-bca7-1432af90c86a">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="3c546e85-7491-4972-977b-6c01b0433218">
             <TableID>dbo_dim_fechas</TableID>
             <ColumnID>fecha</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
+      <NameColumn dwd:design-time-name="b0ef0307-2ea3-4df8-835d-0590e51eae3c">
+        <DataType>WChar</DataType>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="5c504008-a69d-475f-b9e2-7e5c50c86b18">
+          <TableID>dbo_dim_fechas</TableID>
+          <ColumnID>fecha</ColumnID>
+        </Source>
+      </NameColumn>
+      <ValueColumn dwd:design-time-name="a5d3e592-8ae6-4762-bee0-bd8f5c057688">
+        <DataType>Date</DataType>
+        <Format>dd/MM/yyyy</Format>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="c9053637-01e6-4541-95c4-8450bda0cb6e">
+          <TableID>dbo_dim_fechas</TableID>
+          <ColumnID>fecha</ColumnID>
+        </Source>
+      </ValueColumn>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+      <ddl300_300:FormatString>dd/MM/yyyy</ddl300_300:FormatString>
     </Attribute>
-    <Attribute dwd:design-time-name="a8de8b87-d9c4-4d8f-a41b-2e7de2d60992">
+    <Attribute dwd:design-time-name="e73a7a8e-2190-47b7-8bff-e9b46e7bf1f5">
       <ID>Anio</ID>
       <Name>Anio</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="15104d48-949b-4c6a-a810-c31077e54b8c">
+        <KeyColumn dwd:design-time-name="2dc16b17-7d07-4db4-991f-60795b9da07f">
           <DataType>SmallInt</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="3cc56de8-4318-40f1-ab4f-7e4991cebfb5">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="ce0cb4f2-fa8a-492f-8da2-524a0f4ddde3">
             <TableID>dbo_dim_fechas</TableID>
             <ColumnID>anio</ColumnID>
           </Source>
@@ -171,14 +245,14 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="0a19e387-7295-4f29-bde0-7e9db83a5a84">
+    <Attribute dwd:design-time-name="39efd17a-5b17-4b36-ab13-59ca8daa7c01">
       <ID>Semestre</ID>
       <Name>Semestre</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="c4f5839a-987f-4f98-8edf-a1da530e61e3">
+        <KeyColumn dwd:design-time-name="d747d1dc-2075-4b80-bc97-ad3a10b71aa2">
           <DataType>WChar</DataType>
           <DataSize>30</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="76deb0dd-4eef-406e-96fd-22720e70bcce">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="8e53de49-555a-4734-8a18-abf725e1d98e">
             <TableID>dbo_dim_fechas</TableID>
             <ColumnID>semestre</ColumnID>
           </Source>
@@ -187,14 +261,14 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="2242ae8d-1465-4c10-a764-0fc7112f5cc4">
+    <Attribute dwd:design-time-name="683e00ba-fc8d-4dc5-ac85-9e4ca077c6fc">
       <ID>Trimestre</ID>
       <Name>Trimestre</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="4d7977d1-6f03-4644-89e7-987f6766df0e">
+        <KeyColumn dwd:design-time-name="c68ec0e0-baea-46e6-b91e-a254e14c394e">
           <DataType>WChar</DataType>
           <DataSize>30</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="2fcc0ccf-70c7-48a3-bb82-96fe5db28922">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="4aa4e72d-98f8-4d7e-aaa9-a9f58b39445e">
             <TableID>dbo_dim_fechas</TableID>
             <ColumnID>trimestre</ColumnID>
           </Source>
@@ -203,22 +277,22 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="80220d95-e89f-4e1b-ae58-44a07f51620c">
+    <Attribute dwd:design-time-name="267e72be-f6eb-49be-a9ca-671539652059">
       <ID>Mes</ID>
       <Name>Mes</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="133f045e-296d-4aea-8507-f67857fe4969">
+        <KeyColumn dwd:design-time-name="2df17cb0-6699-4224-8d36-24c9bf0fd01b">
           <DataType>SmallInt</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="0a3bcaa6-eb94-4e46-88ea-87a6c5c1fabd">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="bda33e31-6c9f-4b09-b4ea-d1fa802599e0">
             <TableID>dbo_dim_fechas</TableID>
             <ColumnID>num_mes_anio</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
-      <NameColumn dwd:design-time-name="7b95c818-1838-41bb-b0c8-6fdcf11f5b59">
+      <NameColumn dwd:design-time-name="fd9a68cb-f2cd-4d24-a8ca-0be804726890">
         <DataType>WChar</DataType>
         <DataSize>30</DataSize>
-        <Source xsi:type="ColumnBinding" dwd:design-time-name="077ed450-1a98-4291-ae65-3b7c1f652eb8">
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="5cb5ce32-4a03-4075-9205-43937a185378">
           <TableID>dbo_dim_fechas</TableID>
           <ColumnID>mes</ColumnID>
         </Source>
@@ -227,22 +301,22 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="6e862a6d-4db2-4c39-8433-7ef86d74d838">
+    <Attribute dwd:design-time-name="1aae15d0-abaa-465d-8e75-d52559a48155">
       <ID>Dia Semana</ID>
       <Name>Dia Semana</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="f5ddd101-09b4-42a8-af00-02993a76d883">
+        <KeyColumn dwd:design-time-name="cff346db-aedc-48a9-bc95-c5c82ceb9227">
           <DataType>SmallInt</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="de9b0703-7a5d-49d8-804f-533cfdfa1552">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="4203475d-6701-4537-8ca5-f9092175c349">
             <TableID>dbo_dim_fechas</TableID>
             <ColumnID>num_dia_semana</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
-      <NameColumn dwd:design-time-name="79c74560-9c98-4cb3-8cb7-73442524f2d9">
+      <NameColumn dwd:design-time-name="86e9915d-ff71-4947-9b55-437b782b7091">
         <DataType>WChar</DataType>
         <DataSize>30</DataSize>
-        <Source xsi:type="ColumnBinding" dwd:design-time-name="392db42b-1e2e-435f-a2e6-c4b7ac9030cd">
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="2149cac8-4709-4e67-8787-fe9329076746">
           <TableID>dbo_dim_fechas</TableID>
           <ColumnID>dia_semana</ColumnID>
         </Source>
@@ -251,13 +325,13 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="22d77c64-943f-4851-a261-6c7097808855">
+    <Attribute dwd:design-time-name="35c60ef8-9093-475b-96c5-1fcb6bec64b1">
       <ID>Num Semestre Anio</ID>
       <Name>Num Semestre Anio</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="6fcccc98-5413-472c-bd86-734c3259a749">
+        <KeyColumn dwd:design-time-name="c15f7abe-412e-4c73-85cd-a0b8588c8f88">
           <DataType>SmallInt</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="3d778105-7f92-4462-af5d-487c183d1e71">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="ba79f7cf-d9c9-40d2-b095-976ebed71f6d">
             <TableID>dbo_dim_fechas</TableID>
             <ColumnID>num_semestre_anio</ColumnID>
           </Source>
@@ -266,13 +340,13 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="14a3c9b1-9072-477f-beb2-ab5985dc8850">
+    <Attribute dwd:design-time-name="b5d6cbe8-149e-4b0c-8b64-e89a24471115">
       <ID>Num Trimestre Anio</ID>
       <Name>Num Trimestre Anio</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="7dd83a94-c674-45f1-a1ea-d0a786c17c15">
+        <KeyColumn dwd:design-time-name="a61fad0f-a2ec-4105-a103-f46f4715ca5c">
           <DataType>SmallInt</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="2d82d640-a10d-49f4-a440-4ba704a1b34f">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="5902e469-f725-48b8-b2a8-bded33b7102c">
             <TableID>dbo_dim_fechas</TableID>
             <ColumnID>num_trimestre_anio</ColumnID>
           </Source>
@@ -281,13 +355,13 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="67446783-c5b1-40f9-9775-078d55424156">
+    <Attribute dwd:design-time-name="6d1b5a0d-860a-4704-9160-3bb3d8ec9324">
       <ID>Num Mes Anio</ID>
       <Name>Num Mes Anio</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="a54e6018-d08d-485b-8fb3-6a17a627f216">
+        <KeyColumn dwd:design-time-name="87a652a2-d1ec-46d1-823c-9781188cf414">
           <DataType>SmallInt</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="791ff45f-5a47-4469-b8f4-07678a3d173f">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="a4dd4b9c-b20a-47ab-b4ed-fee3bb817328">
             <TableID>dbo_dim_fechas</TableID>
             <ColumnID>num_mes_anio</ColumnID>
           </Source>
@@ -296,13 +370,13 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="07f41768-8833-44f3-ace2-90c15eb165b5">
+    <Attribute dwd:design-time-name="f31cfb2f-c767-42a1-990e-9f0b9cd2d27e">
       <ID>Num Dia Semana</ID>
       <Name>Num Dia Semana</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="33b58951-8df9-4778-bea8-a9bc25d2bd57">
+        <KeyColumn dwd:design-time-name="ef75659c-bee8-4e12-8d4b-c97c6b2bb172">
           <DataType>SmallInt</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="e2bf17ba-6503-49ce-acb6-87bb1244eac1">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="b0e282ab-e5be-447b-8eb1-f3888559c33a">
             <TableID>dbo_dim_fechas</TableID>
             <ColumnID>num_dia_semana</ColumnID>
           </Source>
@@ -311,13 +385,13 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="e6c25778-3b1e-4d74-a475-c06e3377536a">
+    <Attribute dwd:design-time-name="74ef31c1-fac2-42aa-b156-7867efc04735">
       <ID>Num Dia Mes</ID>
       <Name>Num Dia Mes</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="e48948a9-5575-465e-a2d0-dce386691635">
+        <KeyColumn dwd:design-time-name="813820d1-d99e-40db-8693-c6c3d3d2ba00">
           <DataType>SmallInt</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="db644b97-55ea-4819-80c8-a48585cd9d1a">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="6c2fb133-e233-4b6f-823c-65f57f241640">
             <TableID>dbo_dim_fechas</TableID>
             <ColumnID>num_dia_mes</ColumnID>
           </Source>
@@ -326,81 +400,112 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
+    <Attribute dwd:design-time-name="ed0be48a-4254-41e1-8f64-a663bd4cea7f">
+      <ID>Mes 1</ID>
+      <Name>MesyAnio</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="08167207-5e1f-42ba-a269-5c0d9ea93166">
+          <DataType>SmallInt</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="56cd8746-2a5a-40ae-b732-089d241136b1">
+            <TableID>dbo_dim_fechas</TableID>
+            <ColumnID>anio</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn dwd:design-time-name="afc58285-a25b-4164-b218-0c94a4ed1cc3">
+          <DataType>SmallInt</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="b2270004-a400-4f47-84e3-42303bba455a">
+            <TableID>dbo_dim_fechas</TableID>
+            <ColumnID>num_mes_anio</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="d86b46e3-0d40-41e5-b484-50a13773bcb9">
+        <DataType>WChar</DataType>
+        <DataSize>30</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="0445a1a2-6194-4e4a-a5e0-761319a5bf17">
+          <TableID>dbo_dim_fechas</TableID>
+          <ColumnID>mes</ColumnID>
+        </Source>
+      </NameColumn>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
   </Attributes>
   <Hierarchies>
-    <Hierarchy dwd:design-time-name="c209c8ea-f0d6-4970-8342-5edb8d2350d7">
+    <Hierarchy dwd:design-time-name="a536858d-2c87-48e9-ac8c-b882fa5911c2">
       <ID>Jerarquía</ID>
       <Name>Año - Mes</Name>
       <Levels>
-        <Level dwd:design-time-name="d19c1f16-de30-4cbd-8269-d8f1799379d2">
+        <Level dwd:design-time-name="ec252e5f-53b6-42cd-a47a-fb4420c9e4f1">
           <ID>Anio</ID>
           <Name>Anio</Name>
           <SourceAttributeID>Anio</SourceAttributeID>
         </Level>
-        <Level dwd:design-time-name="ae5b065a-f68e-4d9e-b3fd-44d3f2e07e34">
+        <Level dwd:design-time-name="1d43b584-b3d3-4980-88a8-ae32a25d0e4b">
           <ID>Mes</ID>
           <Name>Mes</Name>
           <SourceAttributeID>Mes</SourceAttributeID>
         </Level>
       </Levels>
     </Hierarchy>
-    <Hierarchy dwd:design-time-name="d18e0623-077e-40e2-956f-519c84ba4edb">
+    <Hierarchy dwd:design-time-name="b6a7cf9c-25b3-4d2e-981d-efb7252f27f1">
       <ID>Jerarquía 1</ID>
       <Name>Año - Mes - Dia</Name>
       <Levels>
-        <Level dwd:design-time-name="559da3c4-cd6a-44de-8cd4-9898c286171e">
+        <Level dwd:design-time-name="8c29d170-2b49-4574-a77f-f28f9bec0c10">
           <ID>Anio</ID>
           <Name>Anio</Name>
           <SourceAttributeID>Anio</SourceAttributeID>
         </Level>
-        <Level dwd:design-time-name="5c53b741-f3f9-403f-9b24-077d9225411e">
+        <Level dwd:design-time-name="ff272b13-bdc0-4496-9887-63387271acbe">
           <ID>Mes</ID>
           <Name>Mes</Name>
           <SourceAttributeID>Mes</SourceAttributeID>
         </Level>
-        <Level dwd:design-time-name="464497c4-509e-4c8a-b893-20a4d263044f">
+        <Level dwd:design-time-name="e63e683e-5aa4-42d7-8dc1-fad48bfe598d">
           <ID>Dia Semana</ID>
           <Name>Dia Semana</Name>
           <SourceAttributeID>Dia Semana</SourceAttributeID>
         </Level>
       </Levels>
     </Hierarchy>
-    <Hierarchy dwd:design-time-name="f15d176a-9d35-4a8d-ae61-8a7d6b4f610d">
+    <Hierarchy dwd:design-time-name="141d19b0-3058-474a-814c-9e5eae3817d8">
       <ID>Jerarquía 2</ID>
       <Name>Año - Trimestre - Mes</Name>
       <Levels>
-        <Level dwd:design-time-name="69dee293-6721-4a15-9ba8-c5556172fd58">
+        <Level dwd:design-time-name="4ae02bc2-81da-4838-a902-317f3b4eeaa9">
           <ID>Anio</ID>
           <Name>Anio</Name>
           <SourceAttributeID>Anio</SourceAttributeID>
         </Level>
-        <Level dwd:design-time-name="e6c2ffa5-4d06-423e-a907-d1338d1d8279">
+        <Level dwd:design-time-name="f304c086-675f-41a0-bba3-264a5cd84c3c">
           <ID>Trimestre</ID>
           <Name>Trimestre</Name>
           <SourceAttributeID>Trimestre</SourceAttributeID>
         </Level>
-        <Level dwd:design-time-name="f1e2ee45-8009-415d-bc78-af57a3f37c24">
+        <Level dwd:design-time-name="78c651e2-b2e1-464c-889e-7091defc2c95">
           <ID>Mes</ID>
           <Name>Mes</Name>
           <SourceAttributeID>Mes</SourceAttributeID>
         </Level>
       </Levels>
     </Hierarchy>
-    <Hierarchy dwd:design-time-name="3ae6d683-86cd-404e-b531-49221010d554">
+    <Hierarchy dwd:design-time-name="bbc040dd-8b45-4c86-b807-d2237dceacb7">
       <ID>Jerarquía 1 1</ID>
       <Name>Año - Semestre - Mes</Name>
       <Levels>
-        <Level dwd:design-time-name="ef53a984-9f2b-40d6-9c39-be739589610c">
+        <Level dwd:design-time-name="0bbe7d73-f0e1-4f91-9094-decc64901d46">
           <ID>Anio</ID>
           <Name>Anio</Name>
           <SourceAttributeID>Anio</SourceAttributeID>
         </Level>
-        <Level dwd:design-time-name="f4e0e038-e336-4b3a-b0cb-4dcd1e746764">
+        <Level dwd:design-time-name="9afb725d-f4a3-46a4-9877-760e17421a85">
           <ID>Semestre</ID>
           <Name>Semestre</Name>
           <SourceAttributeID>Semestre</SourceAttributeID>
         </Level>
-        <Level dwd:design-time-name="fd44fcd2-838f-4feb-b588-af6e5ea38ffa">
+        <Level dwd:design-time-name="a7f63364-6d02-4f13-ade5-09c500a1418f">
           <ID>Mes</ID>
           <Name>Mes</Name>
           <SourceAttributeID>Mes</SourceAttributeID>
